@@ -13,7 +13,7 @@
         "paths": {
             "@configuration": ["./configuration"],
             "@middlewares/*": ["./middlewares/*"],
-            "@/*": ["./*"]
+            "@services/*": ["./services/*"],
           },
 		"typeRoots": ["./node_modules/@types", "./src/@types"],
 		"esModuleInterop": true,

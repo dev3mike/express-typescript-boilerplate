@@ -18,14 +18,9 @@
 			{
 				"root": ["./"],
 				"alias": {
-					"@configuration": "./src/configuration"
-					// "@controllers": "./src/controllers",
-					// "@views": "./src/views",
-					// "@configs": "./src/configs",
-					// "@middlewares": "./src/middlewares",
-					// "@exceptions": "./src/exceptions",
-					// "@routes": "./src/routes",
-					// "@index-routes": "./src/routes"
+					"@configuration": "./src/configuration",
+                    "@middlewares": "./middlewares",
+                    "@services": "./services"
 				},
 				"extensions": [".js", ".ts"]
 			}
