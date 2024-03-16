@@ -117,6 +117,6 @@ Please make sure your code adheres to the project's standards and passes all tes
 This project is under the MIT License.
 
 ## Contact me
-Take a look at my website and let's connect: masoudb.com. Can't wait to hear from you! 🌟
+Take a look at my website and let's connect: [masoudb.com](https://masoudb.com). Can't wait to hear from you! 🌟
 
 On linkedin: [https://www.linkedin.com/in/masoudbanimahd/](https://www.linkedin.com/in/masoudbanimahd/)
