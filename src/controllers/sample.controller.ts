@@ -1,6 +1,7 @@
 import { SampleMiddleware } from "@middlewares/sample.middleware";
 import { SampleService } from "@services/sample.service";
 import { Controller, Get, Param, UseBefore } from "routing-controllers";
+import { z } from "zod";
 
 @Controller("/sample")
 @UseBefore(SampleMiddleware)
@@ -13,6 +14,11 @@ export class SampleController {
 
     @Get("/:name")
     public helloPerson(@Param("name") name: string) {
-        return { message: `Hello ${name}` };
+        const nameValue = z
+            .string()
+            .min(2)
+            .max(10);
+
+        return { message: `Hello ${nameValue}` };
     }
 }
