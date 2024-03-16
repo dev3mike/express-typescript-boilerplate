@@ -118,3 +118,6 @@ This project is under the MIT License.
 
 ## Contact me
 Take a look at my website and let's connect: masoudb.com. Can't wait to hear from you! 🌟
+
+You can checkout my website and get in touch: [masoudb.com](https://masoudb.com)
+On linkedin: [https://www.linkedin.com/in/masoudbanimahd/](https://www.linkedin.com/in/masoudbanimahd/)
