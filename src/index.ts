@@ -11,6 +11,8 @@ expressApp.use(helmet());
 Logger.info("Starting server");
 
 useExpressServer(expressApp, Server.Settings).listen(Server.Port);
-registerController([__dirname + "/cronjobs/**/*.ts"]);
+
+// Uncomment this to enable cronjob
+// registerController([__dirname + "/cronjobs/**/*.ts"]);
 
 Logger.info(`Server started, Listening on port ${Server.Port}`);
