@@ -37,7 +37,7 @@ Welcome to the API Starter Boilerplate! 🌟 Currently under development, this b
 
 -  **Winston Logger** 📝: A versatile logging library for Node.js, providing comprehensive log management and flexibility in logging messages to various outputs.
 
-  
+-  **Cron Jobs** ⏰: Automates routine tasks with scheduled executions. This allows for regular maintenance tasks, data updates, and notifications, all running seamlessly in the background for operational efficiency and reliability. 
 
 ## Getting Started
 
